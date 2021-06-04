@@ -1923,7 +1923,7 @@ TOP
 }
 
 .dm a span:nth-child(2) {
-    color: #0B7AC0
+    color: #ff8d2c;
 }
 
 .u-fs-8 {
@@ -2753,7 +2753,7 @@ TOP
     .l-header {
         height: 70px;
         overflow: visible;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: white;
     }
     .l-header .l-header-inner {
         padding: 20px 5.3% 30px;
@@ -2761,12 +2761,18 @@ TOP
     .l-header .l-header-inner h1 {
         font-size: 22px;
     }
-    .l-header .l-header-inner nav.l-nav {
+    /* .l-header .l-header-inner nav.l-nav {
         display: none;
-    }
+    } */
     .l-header .l-header-inner .c-contact-link {
+        width: 35%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .l-header .l-header-inner .c-contact-link:before{
         display: none;
     }
+
     .l-header .toggleWrap ul.toggle-item li.toggle-item-list:hover {
         opacity: 1;
     }
