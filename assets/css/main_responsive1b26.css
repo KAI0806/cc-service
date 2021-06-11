@@ -2103,8 +2103,10 @@ screen and (min-width: 769px) {
         line-height: 1;
         font-weight: 700;
         display: block;
-        color: #0B7AC0;
+        color: white;
         padding-bottom: 14px;
+        background: #ffb97c;
+        padding: 150px;
     }
     .cmn__ttl-type02 span {
         font-size: 20px;
@@ -2113,7 +2115,6 @@ screen and (min-width: 769px) {
         margin-bottom: 25px;
         letter-spacing: .08em;
         text-align: center;
-        color: #000000;
     }
 }
 
