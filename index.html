@@ -64,10 +64,10 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         gtag('config', 'UA-196744964-2');
     </script>
     <script>
-        window.onbeforeunload = function(e){
-            return "このページを離れますか？"; // Google Chrome以外
-            e.returnValue = "このページを離れますか？"; // Google Chrome
-        }
+        window.addEventListener('beforeunload', (event) => {
+        event.preventDefault();
+        event.returnValue = '本キャンペーンには期限があります';
+        });
     </script>
 
     <meta charset="utf-8">
