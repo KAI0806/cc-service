@@ -3691,7 +3691,7 @@ TOP
 }
 
 .window {
-	width: 30vw;
+	width: 25vw;
 	max-width: 500px;
 	height: 20vw;
 	background-color: #ffffff;
@@ -3719,10 +3719,10 @@ TOP
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	font-size: 20px;
+	font-size: 15px;
     background: #ff5b0c;
     color: white;
-    padding: 4px 10px;
+    padding: 3px 7.5px;
     text-align: center;
     box-shadow: 3px 3px 10px #9b9b9b;
     border-radius: 20px;
@@ -3748,7 +3748,7 @@ TOP
 
 .pop-up_img h5{
     background: rgba(0, 0, 0, 0.356);
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     font-weight: 200;
     text-align: center;
@@ -3839,7 +3839,7 @@ TOP
         flex-wrap: wrap;
         width: 90%;
         justify-content: left;
-        margin: auto auto 10px;
+        margin: 25px auto 25px;
     }
 
     .web_sample .tag div{
