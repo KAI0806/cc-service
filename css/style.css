@@ -3952,5 +3952,13 @@ TOP
     .sp_only{
         display: block;       
        }
+
+    .ex_left::before{
+        font-size: 25px;
+    }
+    
+    .ex_right::before{
+        font-size: 25px;
+    }
        
 }
