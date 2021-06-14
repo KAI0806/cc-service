@@ -3691,9 +3691,9 @@ TOP
 }
 
 .window {
-	width: 25vw;
+	width: 15vw;
 	max-width: 500px;
-	height: 20vw;
+	height: 15vw;
 	background-color: #ffffff;
 	justify-content: center;
 	align-items: center;
@@ -3703,10 +3703,17 @@ TOP
     box-shadow: -3px -3px 3px #9b9b9b;
     border-top: 10px solid #ff5b0c;
     z-index: 1000;
+    opacity: 0;
+    transition: all 0.65s;
+}
+
+.window.isActive{
+    opacity: 1;
+    transition: all 0.65s;
 }
 
 #pop-up:checked + .window{
-    display: none;
+    opacity: 0;
 }
 
 .text {
