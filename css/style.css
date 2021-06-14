@@ -2459,7 +2459,7 @@ TOP
         display: none;
     }
     .top section .l-section-inner {
-        width: 1040px;
+        width: 1160px;
         margin: 0 auto;
         padding: 0;
     }
@@ -2510,7 +2510,7 @@ TOP
         display: none;
     }
     .top section.l-service .l-section-inner .flex-col_2 .flex-col-box {
-        height: 360px;
+        height: 400px;
     }
     .top section.l-service .l-section-inner .flex-col_2 .flex-col-box:nth-of-type(2) img {
         margin: -153px 0 32px;
@@ -3778,6 +3778,35 @@ TOP
 .sp_only{
  display: none;       
 }
+
+.ex_left, .ex_right{
+    position: relative;
+}
+
+.ex_left::before{
+    position: absolute;
+    content: "導入前";
+    font-size: 40px;
+    font-weight: 100;
+    color: #0B7AC0;
+    width: 150px;
+    height: 10px;
+    top: 10%;
+    left: -15%;
+}
+
+.ex_right::before{
+    position: absolute;
+    content: "導入後";
+    font-size: 40px;
+    font-weight: 100;
+    color: #ff5b0c;
+    width: 150px;
+    height: 10px;
+    top: 10%;
+    left: -15%;
+}
+
 
 @keyframes sliderAnimation {
     0%{
