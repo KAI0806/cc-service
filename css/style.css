@@ -3926,7 +3926,7 @@ TOP
 
     .close{
         font-size: 5px;
-        padding: 2.5px 5px;
+        padding: 2.5px 2.5px;
         top: 5px;
         left: 5px;
     }
@@ -3936,7 +3936,7 @@ TOP
     }
 
     .text{
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .pop-up_img h5{
