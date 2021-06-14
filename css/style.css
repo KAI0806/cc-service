@@ -3717,19 +3717,19 @@ TOP
 }
 
 .text {
-	font-size: 20px;
+	font-size: 15px;
     font-weight: 400;
 	margin: 0;
 }
 .close {
 	cursor:pointer;
 	position: absolute;
-	top: 10px;
-	left: 10px;
+	top: 1px;
+	left: 3px;
 	font-size: 15px;
     background: #ff5b0c;
     color: white;
-    padding: 3px 7.5px;
+    padding: 1px 5px;
     text-align: center;
     box-shadow: 3px 3px 10px #9b9b9b;
     border-radius: 20px;
@@ -3741,6 +3741,7 @@ TOP
     align-items: center;
     justify-content: center;
     height: 100%;
+    padding-top: 10px;
 }
 
 .pop-up_img{
@@ -3755,17 +3756,18 @@ TOP
 
 .pop-up_img h5{
     background: rgba(0, 0, 0, 0.356);
-    font-size: 15px;
+    font-size: 10px;
     color: white;
     font-weight: 200;
     text-align: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .pop-up_link{
     background: #ff5b0c;
-    padding: 10px;
+    padding: 5px 10px;
+    font-size: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 10px #9b9b9b;
 }
