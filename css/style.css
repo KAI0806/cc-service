@@ -1548,7 +1548,7 @@ TOP
 
 .top section.l-service .l-service-list .l-service__text .l-service__text-inner .c-service-heading {
     border-bottom: 1px dashed #B1B1B1;
-    padding-bottom: 28px;
+    padding-bottom: 25px;
     margin-bottom: 25px;
 }
 
@@ -1562,7 +1562,7 @@ TOP
 
 .top section.l-service .l-service-list .l-service__text .l-service__text-inner .c-service-heading h4:before {
     position: absolute;
-    top: 10px;
+    top: 0;
     left: 0;
     content: url(../images/img_service_hd01.svg);
 }
