@@ -2459,12 +2459,12 @@ TOP
         display: none;
     }
     .top section .l-section-inner {
-        width: 1160px;
+        width: 80%;
         margin: 0 auto;
         padding: 0;
     }
     .top section.l-issue .flex-col .flex-col-box {
-        width: 332px;
+        width: 360px;
     }
     .top section.l-service .l-service-list {
         height: 475px;
