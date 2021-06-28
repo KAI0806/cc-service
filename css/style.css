@@ -1655,7 +1655,7 @@ TOP
 }
 
 .top section.l-service .l-section-inner .flex-col_2 .flex-col-box img {
-    margin: -160px 0 20px;
+    margin: -126px 0 20px;
 }
 
 .top section.l-service .l-section-inner .flex-col_2 .flex-col-box h5 {
@@ -1691,6 +1691,7 @@ TOP
     text-align: center;
     letter-spacing: .08em;
     margin-bottom: 18px;
+    margin-top: 50px;
 }
 
 .top section.l-price .l-section-inner .c-price__text h3 {
@@ -4013,7 +4014,7 @@ TOP
     .ex_right::before{
         font-size: 25px;
     }
-    
+
     .line-icon{
         margin-left: 0;
         margin-top: 0;
