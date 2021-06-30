@@ -4029,3 +4029,7 @@ TOP
 .fb-share-button:hover{
     opacity: .9;
 }
+
+.faq-block__body{
+    font-weight: 100;
+}
