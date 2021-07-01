@@ -1713,6 +1713,10 @@ TOP
     font-weight: 500;
 }
 
+.top section.l-price .l-section-inner .c-price__text img{
+    width: 85%;
+}
+
 .top section.l-price .l-section-inner .l-reason h3 {
     color: #0B7AC0;
     font-size: 28px;
@@ -3054,6 +3058,10 @@ TOP
     .top section ul li {
         width: 30vw;
     }
+
+    .top section.l-price .l-section-inner .c-price__text img{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -3175,6 +3183,14 @@ TOP
         text-align: center;
         margin-left: -140px;
         z-index: 500;
+    }
+
+    .l-header .l-header-inner{
+        padding: 26px 3.3% 30px;
+    }
+
+    .l-header .l-header-inner h1{
+        font-size: 16px;
     }
 }
 
@@ -3960,7 +3976,7 @@ TOP
         margin-bottom: 50px;
     }
     .relate img{
-        width: 80%;
+        width: 95%;
     }
 
     .relate h2::after{
