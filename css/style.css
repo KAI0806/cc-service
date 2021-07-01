@@ -3078,7 +3078,7 @@ TOP
         height: 700px!important;
     } */
     .top .mainvisual .l-catch {
-        left: 7%;
+        left: 2%;
     }
     .top section.l-service .l-service-list .l-service__text .l-service__text-inner p {
         font-size: 84%;
@@ -3277,6 +3277,10 @@ TOP
     }
     .u-sp375 {
         display: inline !important;
+    }
+
+    .top .mainvisual .l-catch {
+        left: 3%;
     }
 }
 
