@@ -1618,7 +1618,7 @@ TOP
 }
 
 .top section.l-service .l-service-list:nth-of-type(4) .l-service__text .l-service__text-inner .c-service-heading h4 {
-    letter-spacing: 0.01em;
+    letter-spacing: -2px;
 }
 
 .top section.l-service .l-service-list:nth-of-type(4) .l-service__text .l-service__text-inner .c-service-heading h4:before {
@@ -3078,7 +3078,7 @@ TOP
         height: 700px!important;
     } */
     .top .mainvisual .l-catch {
-        left: 11.3%;
+        left: 7%;
     }
     .top section.l-service .l-service-list .l-service__text .l-service__text-inner p {
         font-size: 84%;
