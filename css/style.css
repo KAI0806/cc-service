@@ -3757,6 +3757,7 @@ TOP
 
 #pop-up:checked + .window{
     opacity: 0;
+    display: none;
 }
 
 .text {
